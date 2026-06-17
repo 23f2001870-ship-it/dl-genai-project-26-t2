@@ -77,6 +77,7 @@ Correct Answer: A
 
 ## Repository Structure
 
+```text
 smart-mcq-solver-map3/
 │
 ├── data/
@@ -96,10 +97,14 @@ smart-mcq-solver-map3/
 │   ├── train.py
 │   ├── inference.py
 │   ├── evaluate.py
+│   ├── ranker.py
+│   ├── llm_inference.py
+│   ├── ensemble.py
+│   ├── map3.py
+│   ├── config.py
 │   └── utils.py
 │
 ├── models/
-│
 ├── reports/
 │   ├── milestone-1-report.pdf
 │   ├── milestone-2-report.pdf
@@ -107,14 +112,11 @@ smart-mcq-solver-map3/
 │   └── final-report.pdf
 │
 ├── scripts/
-│
 ├── submissions/
-│
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
----
+```---
 
 ## Proposed Methodology
 
